@@ -7,11 +7,14 @@ export const species = [
   'Element',
   'Human',
   'Naga',
-  'Satyr',
+  //'Satyr',
   'Troll',
   'Beast',
   'God',
   'Demon',
+  'Ogre',
+  'Aqir',
+  'Wizard',
 ];
 
 export const featuresPerks = {
@@ -120,6 +123,9 @@ export const featuresPerks = {
   'Demon Hunter': {
     1: 'Negate enemy demon power.',
     2: 'All friendly demons retain their Fel Power.',
+  },
+  'Demon Hunter': {
+    2: 'Whenever a friendly melee piece dies, all friendly Ogres gain 25% bonus health and 25% damage for the entire battle. Maximum 8 stacks.',
   },
   'Aqir': {
     2: 'Upon the death of any non-Aqir ally, if there is any friendly piece of the same name on the chessboard, summons an Aqir at the same or 1 level higher of the highest level piece.',
