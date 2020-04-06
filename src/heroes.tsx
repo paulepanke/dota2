@@ -134,13 +134,6 @@ export const heroes: Array<HeroType> = [
     code: 'ts',
   },
   {
-    name: 'Pain Queen',
-    species: ['Demon'],
-    className: 'Assassin',
-    cost: 2,
-    code: 'qp',
-  },
-  {
     name: 'Oracle',
     species: ['God'],
     className: 'Priest',
@@ -160,13 +153,6 @@ export const heroes: Array<HeroType> = [
     className: 'Warlock',
     cost: 1,
     code: 'wd',
-  },
-  {
-    name: 'Slardar',
-    species: ['Naga'],
-    className: 'Warrior',
-    cost: 2,
-    code: 'sl',
   },
   {
     name: 'Chaos Knight',
@@ -206,7 +192,7 @@ export const heroes: Array<HeroType> = [
     code: 'ab',
   },
  // { name: 'Lich', species: ['Undead'], className: 'Mage', cost: 2, code: 'ch' },
-  { name: 'Lion', species: ['Demon'], className: 'Wizard', cost: 2, code: 'li' },
+  { name: 'Lion', species: ['Demon'], className: 'Wizard', cost: 2, code: 'ln' },
   {
     name: 'Slark',
     species: ['Naga'],
@@ -222,6 +208,13 @@ export const heroes: Array<HeroType> = [
     code: 'tp',
   },
   {
+    name: 'Slardar',
+    species: ['Naga'],
+    className: 'Warrior',
+    cost: 3,
+    code: 'sl',
+  },
+  {
     name: 'Lycan',
     species: ['Human', 'Beast'],
     className: 'Warrior',
@@ -230,7 +223,7 @@ export const heroes: Array<HeroType> = [
   },
   {
     name: 'Venomancer',
-    species: ['Beast'],
+    species: ['Aqir ','Beast'],
     className: 'Warlock',
     cost: 3,
     code: 'vm',
@@ -263,13 +256,13 @@ export const heroes: Array<HeroType> = [
     cost: 3,
     code: 'pa',
   },
-  // {
-  //   name: 'Sand King',
-  //   species: ['Beast'],
-  //   className: 'Assassin',
-  //   cost: 3,
-  //   code: 'sk',
-  // },
+  {
+    name: 'Sand King',
+    species: ['Beast'],
+    className: 'Aqir',
+    cost: 3,
+    code: 'sk',
+  },
   {
     name: 'Terrorblade',
     species: ['Demon'],
@@ -292,6 +285,9 @@ export const heroes: Array<HeroType> = [
     code: 'sf',
   },
   { name: 'Lina', species: ['Human'], className: 'Mage', cost: 3, code: 'li' },
+  { name: 'Legion Commander', species: ['Human'], className: 'Knight', cost: 3, code: 'lc' },
+  { name: 'Pudge', species: ['Undead'], className: 'Warrior', cost: 3, code: 'pd' },
+  { name: 'Rubick', species: ['God'], className: 'Wizard', cost: 3, code: 'rb' },
   {
     name: 'Dazzle',
     species: ['Troll'],
@@ -314,12 +310,27 @@ export const heroes: Array<HeroType> = [
     code: 'do',
   },
   {
-    name: 'Kunkka',
-    species: ['Human'],
-    className: 'Warrior',
+    name: 'Grimstroke',
+    species: ['Demon'],
+    className: 'Wizard',
     cost: 4,
-    code: 'ku',
+    code: 'gr',
   },
+  {
+    name: 'Nyx Assassin',
+    species: ['Aqir'],
+    className: 'Assassin',
+    cost: 4,
+    code: 'na',
+  },
+  {
+    name: 'Broodmother',
+    species: ['Aqir'],
+    className: 'Hunter',
+    cost: 4,
+    code: 'oo',
+  },
+ // {    name: 'Kunkka',    species: ['Human'],    className: 'Warrior',    cost: 4,    code: 'ku',  },
   {
     name: 'Troll Warlord',
     species: ['Troll'],
@@ -350,7 +361,7 @@ export const heroes: Array<HeroType> = [
   },
   {
     name: 'Alchemist',
-    species: ['Goblin'],
+    species: ['Goblin', 'Ogre'],
     className: 'Warlock',
     cost: 4,
     code: 'al',
@@ -361,6 +372,13 @@ export const heroes: Array<HeroType> = [
     className: 'Shaman',
     cost: 4,
     code: 'di',
+  },
+  {
+    name: 'Chen',
+    species: ['Orc'],
+    className: 'Priest',
+    cost: 4,
+    code: 'ch',
   },
   {
     name: 'Medusa',
@@ -439,6 +457,23 @@ export const heroes: Array<HeroType> = [
     cost: 5,
     code: 'sv',
   },
+  {
+    name: 'snapfire',
+    species: ['Goblin'],
+    className: 'Knight',
+    cost: 5,
+    code: 'ff',
+  },
+  {
+    name: 'Pain Queen',
+    species: ['Demon'],
+    className: 'Assassin',
+    cost: 5,
+    code: 'qp',
+  },
+  {    name: 'Visage',    species: ['Undead', 'Dragon'],    className: 'Hunter',    cost: 5,    code: 'qp',  },
+  {    name: 'Huskar',    species: ['Troll'],    className: 'Warrior',    cost: 5,    code: 'qp',  },
+  {    name: 'Invoker',    species: ['Elf'],    className: 'Mage',    cost: 5,    code: 'qp',  },
 ];
 
 export const getFeaturesList = (names: Array<HeroType['name']>) =>
