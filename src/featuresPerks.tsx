@@ -15,6 +15,7 @@ export const species = [
   'Ogre',
   'Aqir',
   'Wizard',
+  'Dwarf'
 ];
 
 export const featuresPerks = {
@@ -133,5 +134,9 @@ export const featuresPerks = {
   },
   'Wizard': {
     2: 'Reduce the number of chess pieces required by 1 for any synergy requiring 4 units or more to be active.',
+  },
+  'Dwarf': {
+    1: '300 bonus attack range and focus on the lowest-health enemy.'
+    2: 'All allies have 300 bonus attack range and focus their attacks on the lowest-health enemy.',
   },
 };
