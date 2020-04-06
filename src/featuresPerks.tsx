@@ -124,7 +124,7 @@ export const featuresPerks = {
     1: 'Negate enemy demon power.',
     2: 'All friendly demons retain their Fel Power.',
   },
-  'Demon Hunter': {
+  'Ogre': {
     2: 'Whenever a friendly melee piece dies, all friendly Ogres gain 25% bonus health and 25% damage for the entire battle. Maximum 8 stacks.',
   },
   'Aqir': {
