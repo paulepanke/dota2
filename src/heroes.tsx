@@ -12,6 +12,13 @@ export type HeroType = {
 export type HeroNamesType = Array<HeroType['name']>;
 
 export const heroes: Array<HeroType> = [
+    {
+    name: 'Crystal Maiden',
+    species: ['Human'],
+    className: 'Mage',
+    cost: 1,
+    code: 'cm',
+  },
   { name: 'Axe', species: ['Orc'], className: 'Warrior', cost: 1, code: 'ax' },
   {
     name: 'Enchantress',
@@ -19,13 +26,6 @@ export const heroes: Array<HeroType> = [
     className: 'Druid',
     cost: 1,
     code: 'en',
-  },
-  {
-    name: 'Ogre Magi',
-    species: ['Ogre'],
-    className: 'Mage',
-    cost: 1,
-    code: 'om',
   },
   {
     name: 'Tusk',
@@ -63,13 +63,6 @@ export const heroes: Array<HeroType> = [
     code: 'sh',
   },
   {
-    name: 'Bat Rider',
-    species: ['Troll'],
-    className: 'Knight',
-    cost: 1,
-    code: 'br',
-  },
-  {
     name: 'Tinker',
     species: ['Goblin'],
     className: 'Mech',
@@ -99,17 +92,25 @@ export const heroes: Array<HeroType> = [
   },
   {
     name: 'Wintern Wyvern',
-    species: ['Dragon'],
+    species: ['Dragon', 'Undead'],
     className: 'Mage',
     cost: 1,
     code: 'ww',
   },
+  {  name: 'Ogre Magi',    species: ['Ogre'],    className: 'Mage',    cost: 2,    code: 'om',  },
   {
-    name: 'Crystal Maiden',
-    species: ['Human'],
-    className: 'Mage',
+    name: 'Bat Rider',
+    species: ['Troll'],
+    className: 'Knight',
     cost: 2,
-    code: 'cm',
+    code: 'br',
+  },
+    {
+    name: 'Bloodseeker',
+    species: ['Orc'],
+    className: 'Shaman',
+    cost: 2,
+    code: 'bs',
   },
   {
     name: 'Beast Master',
@@ -150,7 +151,7 @@ export const heroes: Array<HeroType> = [
     name: 'Witch Doctor',
     species: ['Troll'],
     className: 'Warlock',
-    cost: 2,
+    cost: 1,
     code: 'wd',
   },
   {
