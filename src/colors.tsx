@@ -33,5 +33,7 @@ export const colors = {
     Shaman: 'Blue',
     Warlock: 'MediumPurple',
     Warrior: 'PeachPuff',
+    Aqir :'PeachPuff',
+    Wizard:'MediumPurple',
   },
 };
