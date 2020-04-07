@@ -14,4 +14,4 @@ this is an update from the project Kumagor0 started.
 
 His [original site](https://paulepanke.github.io/dota2)
 
-[Kumagor0 reddit](https://old.reddit.com/user/Kumagor0/)
+[Kumagor0's reddit](https://old.reddit.com/user/Kumagor0/)
