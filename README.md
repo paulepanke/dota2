@@ -1,4 +1,4 @@
-# dota-auto-chess-p1
+# Dota Autochess planner
 
 Displays your team bonuses for given lineup.
 
