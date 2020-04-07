@@ -10,6 +10,8 @@ Displays your team bonuses for given lineup.
     2. yarn
     3. yarn start
 
-this is an update from the project Kumagor0 started.\\
-His [original site](https://paulepanke.github.io/dota2)\\
+this is an update from the project Kumagor0 started.
+
+His [original site](https://paulepanke.github.io/dota2)
+
 [Kumagor0 reddit](https://old.reddit.com/user/Kumagor0/)
